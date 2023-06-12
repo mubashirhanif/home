@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Profiler } from "react";
+import React from "react";
 import Boeing from "../../editable-stuff/boeing.jpg";
 import Dell from "../../editable-stuff/dell-logo.jpg"
 const divStyle = {

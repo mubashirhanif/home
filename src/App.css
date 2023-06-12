@@ -496,3 +496,14 @@
 .bg-gradient {
   background: linear-gradient(rgba(245, 245, 245), rgba(245, 245, 245, 0));
 }
+html, body {
+  height: 100%;
+}
+.container-fluid {
+  height: 100%;
+  overflow-y: hidden; /* don't show content that exceeds my height */
+}
+.body-film {
+  min-height: 100%;
+  overflow-y: scroll;
+}

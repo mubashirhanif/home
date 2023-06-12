@@ -1,8 +1,7 @@
-import React, { useState, useEffect, Profiler } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Pdf from "../../editable-stuff/Ana Ashrafi - Resume 2020.pdf";
+import Pdf from "../../editable-stuff/MubashirHanif.pdf";
 import Profile from "../../editable-stuff/Profile.jpg"
-import {Helmet} from "react-helmet";
 
 import {
   aboutHeading,

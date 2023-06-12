@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://anaashrafi.com",
+  "homepage": "https://mubashirhanif.com",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Ana Ashrafi",
-    "email": "ana.a.ashrafi@gmail.com",
-    "url": "https://github.com/anaashrafi"
+    "name": "Mubashir Hanif",
+    "email": "mubashirhanif93@gmail.com",
+    "url": "https://github.com/mubashirhanif"
   },
   "dependencies": {
     "@popperjs/core": "^2.1.1",
@@ -16,6 +16,7 @@
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-photo-gallery": "^8.0.0",
@@ -28,7 +29,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts --max_old_space_size=8128 start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
