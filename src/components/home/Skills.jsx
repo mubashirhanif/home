@@ -41,7 +41,7 @@ return (
               <div className="col">
               <br/>
                 <p className="lead">Robot Operating System 1 & 2
-                <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
+                <ProgressBar now={85} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
                 <p className="lead">Machine Learning & Computer Vision
                 <ProgressBar now={75} style={{width:'490px', backgroundColor:'white'}}/>

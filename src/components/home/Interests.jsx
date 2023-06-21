@@ -33,7 +33,7 @@ const Interests = () => {
                 </div>
                 <div className="col text-center">
                 <p className="lead text-center" style={{fontSize:'28px'}}>Programing</p>
-                <img src="https://img.icons8.com/?size=128upda&id=48250&format=png"/>
+                <img src="https://img.icons8.com/?size=128&id=48250&format=png"/>
                 </div>
                 <div className="col text-center">
                 <p className="lead text-center" style={{fontSize:'28px'}}>Video Games</p>
