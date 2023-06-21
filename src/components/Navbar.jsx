@@ -69,14 +69,14 @@ const Navbar = (props) => {
               <b>Projects</b>
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#leadership"}
             >
               <b>Leadership</b>
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a
               className="nav-link lead"
