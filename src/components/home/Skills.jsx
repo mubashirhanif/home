@@ -15,45 +15,45 @@ return (
             {/* <div className="col-5 d-none d-lg-inline align-self-center">
             </div> */}
             <div className="d-inline align-self-center">
-            <h1 className="display-4 pb-5 text-center">Skills</h1>
+            <h1 className="display-4 pb-3 text-center">Skills</h1>
             
             <Tabs defaultActiveKey="home" variant="tabs" transition={false} id="skills-tabs" style={{backgroundColor:'#f7f7f7', fontSize:'1.25rem'}}>
             <Tab eventKey="home" title="Hard Skills">
                 <div className="row">
                 <div className="col">
                 <br/>
-                  <p className="lead">Agile/Lean Methodologies
-                  <ProgressBar now={90} style={{width:'490px', backgroundColor:'white'}}/>
+                  <p className="lead">DevOps
+                  <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
                   <p className="lead">JavaScript
-                  <ProgressBar now={87} style={{width:'490px', backgroundColor:'white'}}/>
+                  <ProgressBar now={90} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                  <p className="lead">C#
-                  <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
+                  <p className="lead">Python
+                  <ProgressBar now={90} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
                   <p className="lead">C/C++
                   <ProgressBar now={70} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                  <p className="lead">Python
-                  <ProgressBar now={60} style={{width:'490px', backgroundColor:'white'}}/>
+                  <p className="lead">Ruby & Rails
+                  <ProgressBar now={70} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
               </div>
               <div className="col">
               <br/>
-                <p className="lead">Java
-                <ProgressBar now={90} style={{width:'490px', backgroundColor:'white'}}/>
+                <p className="lead">Robot Operating System 1 & 2
+                <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
-                <p className="lead">HTML/CSS
-                <ProgressBar now={85} style={{width:'490px', backgroundColor:'white'}}/>
+                <p className="lead">Machine Learning & Computer Vision
+                <ProgressBar now={75} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
                 <p className="lead">Test-Driven Development
                   <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                <p className="lead">SQL
-                <ProgressBar now={75} style={{width:'490px', backgroundColor:'white'}}/>
+                <p className="lead">Git
+                <ProgressBar now={90} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
-                <p className="lead">React
-                <ProgressBar now={50} style={{width:'490px', backgroundColor:'white'}}/>
+                <p className="lead">React/Angular/Vue.js
+                <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
               </div>
               </div>
