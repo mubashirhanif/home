@@ -17,7 +17,7 @@ return (
             <div className="d-inline align-self-center">
             <h1 className="display-4 pb-5 text-center">Skills</h1>
             
-            <Tabs defaultActiveKey="home" justify variant="tabs" transition={false} id="skills-tabs" style={{backgroundColor:'#f7f7f7', fontSize:'1.25rem'}}>
+            <Tabs defaultActiveKey="home" variant="tabs" transition={false} id="skills-tabs" style={{backgroundColor:'#f7f7f7', fontSize:'1.25rem'}}>
             <Tab eventKey="home" title="Hard Skills">
                 <div className="row">
                 <div className="col">
