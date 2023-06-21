@@ -108,14 +108,15 @@ const Language = ({ value }) => {
   const array = [];
   let total_count = 0;
   for (let index in data) {
-    array.push(index);
+    if(array.length < 3)
+      array.push(index);
     total_count += data[index];
     // console.log(index, this.state.data[index]);
   }
   // console.log("array contains ", array, this.state.data[array[0]]);
 
   return (
-    <div className="pb-3">
+    <div className="h-54 pb-3">
       Languages:{" "}
       {array.map((language) => (
         <p key={language} className="badge badge-light card-link">
