@@ -40,7 +40,7 @@ const MainBody = () => {
           <Typist className="lead"> {devDesc}</Typist>
           {/* <br/><br/>
           <p className="lead"> <b>Passionate about changing the world with technology.</b></p> */}
-          <div className="p-5">
+          <div className="p-3">
             {icons.map((icon) => (
               <a
                 key={icon.id}
@@ -56,7 +56,17 @@ const MainBody = () => {
                 />
               </a>
             ))}
+            <div className="p-3">
+              <a href="https://stackoverflow.com/users/5268235/minato">
+                <img src="https://stackoverflow.com/users/flair/5268235.png" width="208" height="58" alt="profile for Minato at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Minato at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
+              </a>
+            </div>
           </div>
+          {/* <div className="p-3">
+            <a href="https://stackoverflow.com/users/5268235/minato">
+              <img src="https://stackoverflow.com/users/flair/5268235.png" width="208" height="58" alt="profile for Minato at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Minato at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
+            </a>
+          </div> */}
           <a
             className="btn btn-outline-light btn-lg"
             href="#aboutme"
