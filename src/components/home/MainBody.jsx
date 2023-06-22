@@ -57,8 +57,13 @@ const MainBody = () => {
               </a>
             ))}
             <div className="p-3">
-              <a href="https://stackoverflow.com/users/5268235/minato">
-                <img src="https://stackoverflow.com/users/flair/5268235.png" width="208" height="58" alt="profile for Minato at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Minato at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
+              <a href="https://stackexchange.com/users/3816561">
+                <img 
+                  src="https://stackexchange.com/users/flair/3816561.png" 
+                  width="208" height="58" 
+                  alt="profile for Minato on Stack Exchange, a network of free, community-driven Q&amp;A sites" 
+                  title="profile for Minato on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                  />
               </a>
             </div>
           </div>
